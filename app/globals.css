@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.normal_container {
+    @apply flex items-center justify-between text-white;
+}
+
+.button {
+    @apply p-2 hover:bg-slate-600 duration-100 hover:bg-lighter-blue duration-200 rounded-xl cursor-pointer;
+}
+
+.profile_section {
+    @apply absolute w-[30vw] sm:w-[210%] p-2 right-0 sm:right-2 mt-2 text-white bg-semi-dark-blue rounded-lg font-semibold
+}
+
+.primary_heading {
+    @apply text-5xl sm:text-6xl text-dark-blue font-[900]
+
+}
+
+.loader {
+    @apply w-12 h-12 border-dark-blue border-r-lighter-blue rounded-full border-8 animate-spin
+}
